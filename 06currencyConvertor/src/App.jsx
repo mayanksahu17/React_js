@@ -1,6 +1,3 @@
-# React_js
-React_js tutorial
-
 import { useState } from 'react'
 import {InputBox} from './components'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
@@ -17,6 +14,7 @@ function App() {
 
   const options = Object.keys(currencyInfo)
 
+  
   const swap = () => {
     setFrom(to)
     setTo(from)
