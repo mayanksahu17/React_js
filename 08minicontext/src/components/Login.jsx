@@ -16,13 +16,13 @@ const handleSubmit = (e)=>{
 
   return (
     <div>
-        <h2>
+        <h3>
             <input type="text" value={username} onChange={(e)=>{setUsername(e.target.value)}} placeholder='username' />
-
+                    {"    "}
             <input type="password" value={Password} onClick={(e)=>{ setPassword(e.target.value)}} placeholder='Password' />
-
+                {"   "}
             <button onClick={handleSubmit}  >Submit</button>
-        </h2>
+        </h3>
     </div>
   )
 }
