@@ -6,10 +6,13 @@ import LogoutBtn from "./Header/LogoutBtn";
 import RTE from './RTE'
 import Signup from './Signup'
 import Login from './Login'
-// import Post from './'
 import Postform from './post-form/Postform' 
 import PostCart from './PostCart'
 import Authlayout from './Authlayout'
+import Button from './Button'
+import Input from './Input'
+ import Select from './Select'
+import AllPosts from '../pages/AllPosts'
 export {
     Header,
     Footer,
@@ -23,6 +26,10 @@ export {
     Postform, 
     PostCart , 
     Authlayout,
+    Button,
+     Input , 
+     Select , 
+     AllPosts, 
 
     
 }

@@ -1,9 +1,9 @@
 import React , {useCallback} from 'react'
 import {useForm} from 'react-hook-form'
 import { Button , Input , Select } from '../index'
-import RTE from 'index.js'
+import {RTE} from '../index.js'
 import Appwriteservice from '../../Appwrite/config'
-import {useNavigate, useNevigator  } from 'react-router-dom'
+import {useNavigate  } from 'react-router-dom'
 import{ useSelector } from 'react-redux'
 
 function Postform({post}) {

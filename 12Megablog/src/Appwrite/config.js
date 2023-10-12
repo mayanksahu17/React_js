@@ -10,7 +10,7 @@ class Service{
     buckets ;
     constructor(){
         this.client
-        .setEndPoint(config.appwriteUrl)
+        .setEndpoint(config.appwriteUrl)
         .setProject(config.appwriteProjectid);
         
         this.databases = new Databases(this.client);

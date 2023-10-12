@@ -70,10 +70,6 @@ import { Client, Account, ID } from "appwrite";
             console.log("Appright service :: logout :: error", error);
         }
 
-
-
-
-
     }
 
 

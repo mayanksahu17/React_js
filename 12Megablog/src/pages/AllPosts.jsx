@@ -1,7 +1,7 @@
 import React,  {useEffect, useState}from 'react'
 import { Container, PostCart } from '../components'
 import  appwriteservices from '../Appwrite/config'
-import PostCart from '../PostCart'
+
 function AllPosts() {
     const [Posts, setPosts] = useState([])
 
